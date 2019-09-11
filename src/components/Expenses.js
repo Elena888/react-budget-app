@@ -8,7 +8,13 @@ const Expenses = (props) =>{
     };
 
     const calcPercentage = (value) => {
-        let percentage = Math.round((value / props.totalInc) * 100);
+        let percentage;
+        if(props.total > 0){
+            percentage = Math.round((value / props.totalInc) * 100);
+        }else{
+            percentage = -1;
+        }
+
         return percentage;
     };
     return (
