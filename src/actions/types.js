@@ -1,0 +1,7 @@
+export const ADD_ITEM = 'ADD_ITEM';
+export const DELETE_ITEM = 'DELETE_ITEM';
+export const CALC_TOTAL_INC = 'CALC_TOTAL_INC';
+export const CALC_TOTAL_EXP = 'CALC_TOTAL_EXP';
+export const GET_BUDGET = 'GET_BUDGET';
+export const PERCENTAGE_EXPENSES = 'PERCENTAGE_EXPENSES';
+export const CURRENT_DATE = 'CURRENT_DATE';
